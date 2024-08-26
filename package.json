@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "type": "commonjs",
+  "author": "alex",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1683.0",
