@@ -1,0 +1,17 @@
+{
+  "name": "mdf",
+  "version": "1.0.0",
+  "description": "metadata reader for jpeg and heif files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1683.0",
+    "exifreader": "^4.23.3",
+    "sharp": "^0.33.5"
+  }
+}
