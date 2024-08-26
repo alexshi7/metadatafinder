@@ -25,3 +25,8 @@ function uploadImage() {
         alert('Please select an image file.');
     }
 }
+// index.js
+export async function handler(event, context) {
+    // Your Lambda function code here
+    return "Function executed successfully!";
+};
